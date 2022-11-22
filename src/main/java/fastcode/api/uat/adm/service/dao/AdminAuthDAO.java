@@ -1,6 +1,6 @@
 package fastcode.api.uat.adm.service.dao;
 
-import fastcode.api.uat.adm.service.UserAuthorHistoryVO;
+import fastcode.api.uat.adm.service.vo.UserAuthorHistoryVO;
 import org.springframework.stereotype.Repository;
 
 import com.bitcamp.lms.dwh.repository.CrudRepository;

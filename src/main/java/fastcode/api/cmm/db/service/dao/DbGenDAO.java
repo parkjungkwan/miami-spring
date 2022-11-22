@@ -4,7 +4,7 @@ import java.util.Map;
 
 import fastcode.api.cmm.app.service.dao.AppDAO;
 import fastcode.api.cmm.app.service.vo.ComponentVO;
-import fastcode.api.cop.article.service.vo.CopWriteVO;
+import fastcode.api.cop.bbs.service.vo.WriteVO;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -21,8 +21,8 @@ public interface DbGenDAO extends AppDAO<ComponentVO> {
 	public String getWelcomeAiAcademy();
 	public String getIntroduceAiAcademy();
 	public List<ComponentVO> getProcedure();
-	public List<CopWriteVO> getTest();
-	public List<CopWriteVO> existTable();
+	public List<WriteVO> getTest();
+	public List<WriteVO> existTable();
 	public Map<?,?> showCreateTable(String param);
 	public void dropTable(String param);
 	public void createNewTable(String param);

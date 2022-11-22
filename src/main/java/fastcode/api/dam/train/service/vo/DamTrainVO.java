@@ -38,7 +38,7 @@ public class DamTrainVO {
 	
 	private int stuNo; private List<Student> students; // 참여한 학습자
 	private int teaNo; private List<Tutor> teachers; // 참여한 교강사
-	private int cosNo; private DamCourseVO course; // 과정명세
+	private int cosNo; private CourseVO course; // 과정명세
 	private int smid; private List<Submission> submissions; // 평가목록
 	
 	
